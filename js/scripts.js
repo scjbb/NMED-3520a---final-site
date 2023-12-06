@@ -247,7 +247,17 @@ const scenes = [
     },
     {
         id: 25,
-        text: "You: ‘sounds interesting, what programs were you looking into?’. Ace: ‘ music or history have always been an interest of mine’",
+        text: "You ask him a question: ‘Any reason Calsel university interests you?’. Ace pauses before replying: ‘Honestly it's mostly because I don't particularly care to move away, plus the programs they have here seem decent.You said you worked at the university, correct?’",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 27 },
+
+        ],
+    },
+    {
+        id: 26,
+        text: "You ask him a question: ‘Any reason Calsel university interests you?’. Ace pauses before replying: ‘Honestly it's mostly because I don't particularly care to move away, plus the programs they have here seem decent.You said you worked at the university, correct?’",
         background: "img/Neutral2.png",
 
         options: [
