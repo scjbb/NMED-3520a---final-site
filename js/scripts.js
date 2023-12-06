@@ -162,6 +162,48 @@ const scenes = [
         ],
     },
     {
+        id: 17,
+        text: "Ace: 'music you say? so What specifically about music were you most interested in during school?'",
+        background: "img/Neutral2.PNG",
+
+        options: [
+            { text: "Classical", nextScene: 18 },
+            { text: "History and theory", nextScene: 19 },
+
+        ],
+    },
+    {
+        id: 18,
+        text: "You: ‘Classical has always been my favorite. I know it's not everyone's favorite, but honestly I’ve always loved the intricacies of classical. A piano may be capable of setting the scene for a story of heartbreak, tragedy,and love on its own, however when paired with lets say a violin, it gives the piece a voice. It creates a whole new layer of emotion and beauty’. Ace smiles: ‘ Nice to know you’ve got good taste. With the way you spoke, I assume you’ve got a soft spot for violin then. Do you happen to play anything?’",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 20 },
+
+        ],
+    },
+    {
+        id: 19,
+        text: "You: ‘Honestly I loved learning about history and theory for music. It's always fascinated me how something as simple as  applying the right vocal technique can differentiate a sequence of notes placed together melodically to a heart wrenching retelling of another's life. I've always been star struck by that idea. Sorry I know you probably don't particularly care to listen to me ramble.’ Ace: ‘Nonsense, it's always interesting to hear people speak about the things they enjoy. Besides, it's nice to meet another being who is interested in musical theory, most beings around our age range aren't particularly interested in that kind of thing, so talking to you has been a breath of fresh air. Do you happen to play any instruments or is your specialization in mostly voice?",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 20 },
+
+        ],
+    },
+    {
+        id: 20,
+        text: "Ace: 'music you say? so What specifically about music were you most interested in during school?'",
+        background: "img/Neutral2.PNG",
+
+        options: [
+            { text: "I play piano", nextScene: 21 },
+            { text: "History and theory", nextScene: 21 },
+
+        ],
+    },
+    {
         id: 4,
         text: "Scene 3: You chose Option 2.",
         background: "scene3.jpg",
