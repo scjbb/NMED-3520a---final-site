@@ -1,0 +1,30 @@
+* {
+    background-color: #d6c6e3;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    font-stretch: 50%;
+
+
+}
+
+h1 {
+    font-size: 100px;
+}
+
+button {
+
+    background-color: #f8f9fa3d;
+    border: 2px solid #212529;
+    border-radius: 5px;
+    color: #16212b;
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
