@@ -276,9 +276,39 @@ const scenes = [
         text: "Ace: ‘You said you worked at the university, correct?’",
         background: "img/neutral2.PNG",
         options: [
-            { text: "Yes, music", nextScene: 1 },
-            { text: "Are you trying to use me?", nextScene: 2 },
-            { text: "Are you trying to use me?", nextScene: 2 },
+            { text: "Yes, music", nextScene: 28 },
+            { text: "Are you trying to use me?", nextScene: 29 },
+            { text: "Offer to help him", nextScene: 30 },
+        ],
+    },
+    {
+        id: 28,
+        text: " you reply:' Yes, I teach a few classes within the music program, I start my new job in a few weeks actually.'",
+        background: "img/neutral2.PNG",
+
+        options: [
+            { text: "Next", nextScene: 20 },
+
+        ],
+    },
+    {
+        id: 29,
+        text: " You reply: 'yes. Though if you're trying to get in through me, that won't work",
+        background: "img/annoyed.PNG",
+
+        options: [
+            { text: "Next", nextScene: 12 },
+
+        ],
+    },
+    {
+        id: 30,
+        text: " Ace:’ yes, I do, but sorry no I don't usually give out my number to strangers.’ You sit in awkward silence for a second before ace speaks again: 'well, sorry, my shift's about to start.'",
+        background: "img/awkward.PNG",
+
+        options: [
+            { text: "Restart", nextScene: 1 },
+
         ],
     },
 ];
