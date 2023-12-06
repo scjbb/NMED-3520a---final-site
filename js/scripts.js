@@ -58,7 +58,7 @@ const scenes = [
     },
     {
         id: 7,
-        text: "sorry for intruding, my name is MC the second. May I ask for your name? He pauses before answering.",
+        text: "YOU: 'sorry for intruding, my name is MC the second. May I ask for your name?' He pauses before answering.",
         background: "img/Neutral1.PNG",
 
         options: [
@@ -68,23 +68,96 @@ const scenes = [
     },
     {
         id: 8,
-        text: "ACE: sure? My name is Ace Bunbun, nice to meet you.",
+        text: "ACE: 'sure? My name is Ace Bunbun, nice to meet you.'",
         background: "img/Laugh.PNG",
 
         options: [
-            { text: "Ask what brings him here", nextScene: 9 },
-            { text: "Ask what brings him here", nextScene: 9 },
-            { text: "Ask what brings him here", nextScene: 9 },
+            { text: "Next", nextScene: 9 },
 
         ],
     },
     {
         id: 9,
-        text: "ACE: sure? My name is Ace Bunbun, nice to meet you.",
-        background: "img/Start.PNG",
+        text: "ACE: 'sure? My name is Ace Bunbun, nice to meet you.'",
+        background: "img/Laugh.PNG",
 
         options: [
-            { text: "Next", nextScene: 8 },
+            { text: "Ask what brings him here", nextScene: 10 },
+            { text: "Make small talk", nextScene: 11 },
+            { text: "Ask him if he knows who joe is", nextScene: 12 },
+
+        ],
+    },
+    {
+        id: 10,
+        text: "YOU: 'so… what brings you here?'. He looks at you confused, before replying. ACE: 'Oh uhm, im the bar tender, Im just waiting for my shift to start. How about you?'",
+        background: "img/Neutral2.PNG",
+
+        options: [
+            { text: "Next", nextScene: 13 },
+
+
+        ],
+    },
+    {
+        id: 11,
+        text: "YOU: 'sorry if that was awkward, I just moved here and was hoping to make some friends'. Ace pauses before awkwardly trying to make conversation. ACE:'Its fine, so what made you decide to move?'",
+        background: "img/Neutral2.PNG",
+
+        options: [
+            { text: "Next", nextScene: 13 },
+
+        ],
+    },
+    {
+        id: 12,
+        text: "Ace: 'oh wow. How funny. Sorry, my shift starts soon.' Ace leaves before you can say anything else.",
+        background: "img/Annoyed.png",
+
+        options: [
+            { text: "Restart", nextScene: 1 },
+
+        ],
+    },
+    {
+        id: 13,
+        text: "You take a moment to think about what you want to say.",
+        background: "img/Neutral2.PNG",
+
+        options: [
+            { text: "Thought it was cool", nextScene: 14 },
+            { text: "Make small talk", nextScene: 15 },
+            { text: "Ask him if he knows who joe is", nextScene: 16 },
+
+        ],
+    },
+    {
+        id: 14,
+        text: "Ace: 'oh cool'. You sit in awkward silence you a few seconds before ace speaks again. Ace: 'Sorry, my shift starts soon.' Ace leaves you to sit in awkward silence at your lack of social skills.",
+        background: "img/Neutral1.png",
+
+        options: [
+            { text: "Restart", nextScene: 1 },
+
+        ],
+    },
+    {
+        id: 15,
+        text: "You: ‘I actually just got hired as a professor at Calsel University, The moving trucks will be here early tomorrow, so I decided to just make the trip tonight rather than rushing here tomorrow’. You seem to have peaked his interest. Ace: ‘A professor you say?? What subject?’. You reply: ‘music’",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 17 },
+
+        ],
+    },
+    {
+        id: 16,
+        text: "Oh I got a new job, just moved here actually. And you said you were a bartender here? What led you here?",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 17 },
 
         ],
     },
