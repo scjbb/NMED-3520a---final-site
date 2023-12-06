@@ -38,11 +38,54 @@ const scenes = [
     {
         id: 5,
         text: "As soon as you enter the lounge, a small rabbit bot sitting at the bar catches your attention. Feeling especially brave, curiosity gets the best of you as you approach the bot.Scene 3: You chose Option 2.",
-        background: "img/lounge.PNG",
-        character: "img/annoyed.PNG",
+        background: "img/Start.PNG",
+
         options: [
-            { text: "Option 2.1", nextScene: 1 },
-            { text: "Option 2.2", nextScene: 2 },
+            { text: "Open with a flirty line", nextScene: 6 },
+            { text: "Introduce yourself", nextScene: 7 },
+            { text: "Ask to sit next to him", nextScene: 9 },
+        ],
+    },
+    {
+        id: 6,
+        text: "He looks at you disgusted before replying. ACE: Thats.. NOT okay.",
+        background: "img/Annoyed.png",
+
+        options: [
+            { text: "Restart", nextScene: 1 },
+
+        ],
+    },
+    {
+        id: 7,
+        text: "sorry for intruding, my name is MC the second. May I ask for your name? He pauses before answering.",
+        background: "img/Neutral1.PNG",
+
+        options: [
+            { text: "Next", nextScene: 8 },
+
+        ],
+    },
+    {
+        id: 8,
+        text: "ACE: sure? My name is Ace Bunbun, nice to meet you.",
+        background: "img/Laugh.PNG",
+
+        options: [
+            { text: "Ask what brings him here", nextScene: 9 },
+            { text: "Ask what brings him here", nextScene: 9 },
+            { text: "Ask what brings him here", nextScene: 9 },
+
+        ],
+    },
+    {
+        id: 9,
+        text: "ACE: sure? My name is Ace Bunbun, nice to meet you.",
+        background: "img/Start.PNG",
+
+        options: [
+            { text: "Next", nextScene: 8 },
+
         ],
     },
     {
