@@ -43,7 +43,7 @@ const scenes = [
 
     {
         id: 5,
-        text: "As soon as you enter the lounge, a small rabbit bot sitting at the bar catches your attention. Feeling especially brave, curiosity gets the best of you as you approach the bot.Scene 3: You chose Option 2.",
+        text: "As soon as you enter the lounge, a small rabbit bot sitting at the bar catches your attention. Feeling especially brave, curiosity gets the best of you as you approach the bot.",
         background: "img/Start.PNG",
 
         options: [
@@ -272,13 +272,13 @@ const scenes = [
         ],
     },
     {
-        id: 4,
-        text: "Scene 3: You chose Option 2.",
-        background: "scene3.jpg",
-        character: "character3.PNG",
+        id: 27,
+        text: "Ace: ‘You said you worked at the university, correct?’",
+        background: "img/Neutral2.PNG",
         options: [
-            { text: "Option 2.1", nextScene: 1 },
-            { text: "Option 2.2", nextScene: 2 },
+            { text: "Yes, music", nextScene: 1 },
+            { text: "Are you trying to use me?", nextScene: 2 },
+            { text: "Are you trying to use me?", nextScene: 2 },
         ],
     },
 ];
