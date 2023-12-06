@@ -204,6 +204,58 @@ const scenes = [
         ],
     },
     {
+        id: 21,
+        text: "Ace: ‘I used to play violin, though I’ve never gotten the opportunity to perform a duet since I’ve never met someone who plays classical. My shift is about to start, just in case I don’t see you again, here.’ Ace passes you a paper with numbers scribbled on it, you look at it and smile before placing it back within your pocket. ACE: ‘Message me sometime, maybe we can perform sometime, see ya!’.",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 22 },
+
+        ],
+    },
+    {
+        id: 22,
+        text: "Ace walks away, For now, you've made a friend. Maybe later, you'll have made that friendship more, but either way you're content.",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "You win! Restart?", nextScene: 1 },
+
+        ],
+    },
+    {
+        id: 23,
+        text: "Ace: ‘After highschool I took a 2 year program for culinary. I realized after the fact that I’m not as much of a fan of the industry as I had thought, so I'm actually saving up right now to go to Calsel University.’",
+        background: "img/Neutral2.PNG",
+
+        options: [
+            { text: "What program", nextScene: 24 },
+            { text: "Why Calsel?", nextScene: 25 },
+            { text: "Why culinary?", nextScene: 26 },
+
+        ],
+    },
+    {
+        id: 24,
+        text: "You: ‘sounds interesting, what programs were you looking into?’. Ace: ‘ music or history have always been an interest of mine’",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 27 },
+
+        ],
+    },
+    {
+        id: 25,
+        text: "You: ‘sounds interesting, what programs were you looking into?’. Ace: ‘ music or history have always been an interest of mine’",
+        background: "img/Neutral2.png",
+
+        options: [
+            { text: "Next", nextScene: 27 },
+
+        ],
+    },
+    {
         id: 4,
         text: "Scene 3: You chose Option 2.",
         background: "scene3.jpg",
